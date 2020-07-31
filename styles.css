@@ -290,6 +290,11 @@ input[type=submit]:hover {
     .about.box{
       width:100%;
     }
+  
+  
+   input[type=submit] {
+     font-sixe:15px;
+    }
 
 
 }
