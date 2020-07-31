@@ -20,7 +20,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background-color: white;
+  background-color: #ebf8ff;
   font-family: sans-serif;
   position: -webkit-sticky;
   position: sticky;
@@ -336,7 +336,7 @@ footer{
     right:0px;
     height:100vh;
     top: 8vh;
-    background-color:white;
+    background-color:#ebf8ff;
     display:flex;
     flex-direction: column;
     align-items: center;
