@@ -1,9 +1,10 @@
 <html lang="en" >
   <head>
-    <title> SRM guide </title>
+    <title> Studlife </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles2.css">
 
 
 
@@ -11,23 +12,143 @@
 
   <body>
       <nav>
-        <div class= "hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
+        <div class="logo">
+            <h4>StudLife</h4>
         </div>
-        <ul class="nav-links" >
-          <li> <a href="#"> SRM Guide</a></li>
-          <li> <a href="#" > Home</a></li>
-          <li> <a href="#" > About</a></li>
-          <li> <a href="#" > Clubs</a></li>
-          <li> <a href="#" > Fests</a></li>
-          <li> <a href="#" > Contact Us</a></li>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#fests">Clubs</a></li>
+            <li><a href="#clubs">Fests</a></li>
+            <li><a href="#contact">Contact us</a></li>
         </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
       </nav>
 
-        <script type="text/javascript" src="js/main.js"></script>
 
+
+              <section class="about box " id="about">
+                    <div class="about-content">
+                      <img src="images/image1.jpg" alt="student life" width=50%>
+                      <div class="about-text">
+                        <h1>A project to ease life at SRM!</h1>
+                        <p>We aim at making life at SRM easier by giving students a simple solution to all their needs.We have information about clubs and fests and other student life happenings all at one place. Easy ! Aint it?</p>
+                      </div>
+                    </div>
+              </section>
+
+
+          <div class="wrapper">
+              <section class="clubs box " id="clubs">
+
+                  <h2 class="heading"style="text-align:center">Clubs</h2>
+                  <div class="row">
+                    <div class="column">
+                      <div class="card">
+                        <img src="https://msclubsrm.in/img/dark_svg/Logo.svg" alt="Jane" style="width:50%"  >
+                        <div class="container">
+                          <h2>Microsoft Student Partner Club</h2>
+                          <p><button class="button"><a href="https://msclubsrm.in/" >Visit Page</a></button></p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                      <div class="column" >
+                        <div class="card">
+                          <img src="https://pbs.twimg.com/profile_images/1229972741106913280/7TuWEOKm_400x400.jpg" alt="Jane" style="width:50%" >
+                          <div class="container">
+                            <h2>Data Science Community</h2>
+                            <p><button class="button"><a href="https://dscommunity.in/" >Visit Page</a></button></p>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+                        <div class="column">
+                          <div class="card">
+                            <img src="https://srmpedia.in/assets/img/logo.png" alt="Jane" style="width:100%" >
+                            <div class="container">
+                              <h2>SRMpedia</h2>
+                              <p><button class="button"><a href="https://srmpedia.in/" >Visit Page</a></button></p>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+                          <div class="column">
+                            <div class="card">
+                              <img src="https://dscsrm.com/assets/img/logo.png" alt="Jane" style="width:50%" >
+                              <div class="container">
+                                <h2>Developer Student Club , Google</h2>
+                                <p><button class="button"><a href="https://dscsrm.com/" >Visit Page</a></button></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+              </section>
+
+              <section class="fests box " id="fests">
+                <div class="fests-content">
+                  <h2 class="heading"style="text-align:center">Fests</h2>
+                  <div class="row">
+                    <div class="column">
+                      <div class="card">
+                        <img src="https://cdn.thecollegefever.com/upload/29768586-1579430459264.png" alt="Jane" style="width:100%" >
+                        <div class="container">
+                          <h2>Milan</h2>
+                          <p><button class="button"><a href="https://srmmilan.org/" >Visit Page</a></button></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                    <div class="row">
+                      <div class="column">
+                        <div class="card">
+                          <img src="https://campusinteraction.com/Campus/srm-aaruush/Aaruush%20Logo.png" alt="Jane" style="width:100%">
+                          <div class="container">
+                            <h2>Aaruush</h2>
+                            <p><button class="button"><a href="https://www.aaruush.org/" >Visit Page</a></button></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </section>
+
+              <section class="contact box " id="contact">
+                  <div class="ct-container">
+                    <h1 class="heading"> Feel free to reach out to us! </h1>
+                      <form action="/action_page.php">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+
+                        <label for="email">Email Id</label>
+                        <input type="text" id="email-id" name="email-id" placeholder="Your Email Id..">
+
+
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Send Message">
+                      </form>
+                  </div>
+              </section>
+
+                <script type="text/javascript" src="js/main.js"></script>
+       </div>
 
   </body>
 
