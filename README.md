@@ -7,5 +7,5 @@ The repository contains all files required to analyze the webpage .
 
 The link to the webpage is : https://devanshi-karthik.github.io/CodeChef-Task/
 
-I have also included a screen recording of the same for easier understanding.
+I have also included a screen recording of the same for easier understanding. The mp4 files will have to be downloaded in order to be viewed.
 
