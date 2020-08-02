@@ -326,13 +326,21 @@ footer{
     width:100%;
   }
 
+  .box{
+    padding: 50.8px;
+  }
+
   .col {
    display: block;
    width: 100%;
   }
 
+  nav{
+    position: fixed;
+    width: 100%;
+  }
   .nav-links{
-    position:absolute;
+    position:fixed;
     right:0px;
     height:100vh;
     top: 8vh;
